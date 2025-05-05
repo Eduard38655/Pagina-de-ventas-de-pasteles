@@ -1,0 +1,28 @@
+.Div_Header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.Div_Header button{
+    border: none;
+    background: none;
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    .Div_Header{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    .Div_Header button{
+        border: none;
+        background: none;
+   
+    }
+}

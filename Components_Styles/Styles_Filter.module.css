@@ -1,0 +1,108 @@
+.Div_Filter{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Div_Filter input{
+    padding: 20px;
+    height: 55px;
+    width: 91%;
+    background-color: white;
+    border: 1px solid gainsboro ;
+    border-radius: 10px;
+}
+
+.Div_Filter button{
+    width: 100px;
+    height: 55px;
+    border: 1px solid gainsboro ;
+    background:none;
+    border-radius: 10px;
+}
+
+.Div_More_Container{
+    width: 100%;
+    height:185px;
+background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px;
+ 
+
+}
+.Div_Quantity{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Div_More_Container .Div_Quantity input{
+    
+    width: 635px;
+    height: 30px;
+    padding: 20px;
+border-radius: 5px;
+border: 1px solid gainsboro;
+}
+.Div_More_Container select{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .Div_Filter{
+        width: 100%;
+        height: 135px;
+        display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+    }
+    .Div_Filter input{
+        padding: 20px;
+        height: 55px;
+        width: 100%;
+        background-color: white;
+        border: 1px solid gainsboro ;
+        border-radius: 10px;
+    }
+    .Div_Filter button{
+        width: 100%;
+        height: 60px;
+        border: 1px solid gray;
+        background:none;
+        border-radius: 10px;
+        text-align: start;
+        padding: 20px;
+        font-size: 14px;
+    }
+    .Div_More_Container{
+        width: 100%;
+        height:185px;
+    background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .Div_Quantity{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Div_More_Container .Div_Quantity input{
+    
+        width:169px;
+        height: 30px;
+        padding: 20px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    }
+}

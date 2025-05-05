@@ -1,0 +1,30 @@
+.Button{
+  font-size: 30px;
+  margin-right: 30px;
+}
+
+[data-theme='dark'] table{
+    background-color: rgb(63, 63, 70);
+    color: white;
+}
+
+[data-theme='light'] table {
+    box-shadow: 5px 5px 10px 0px gray;
+    border : 1px solid gainsboro;
+}
+
+[data-theme='dark'] button{ color: white;}
+[data-theme='dark'] button i{ color: white;}
+   
+[data-theme='dark'] article aside{background-color: rgb(63, 63, 70); }
+ 
+[data-theme='light'] body{
+   background: rgb(231, 231, 235);
+  }
+
+  [data-theme='dark'] body{
+    background: #121212;   
+  }
+  [data-theme='dark'] body h1{
+    color: white;   
+  }

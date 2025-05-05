@@ -1,0 +1,144 @@
+ 
+.Dialog_Inventory{
+    width: 680px;
+    height: 500px;
+  background-color:#ffff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   margin-left: 400px;
+   margin-top: -150px;
+  border: 1px solid black;
+}
+
+.Dialog_Inventory .Div_Inventory_Inputs{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.Dialog_Inventory .Div_Inventory_Inputs input{
+width: 100%;
+height: 50px;
+padding: 10px;
+}
+.Dialog_Inventory textarea{
+    width: 100%;
+height: 100px;
+padding: 10px;
+}
+.Div_Money_div{
+    width: 100%;
+    height: 55px;
+display: flex;
+ 
+flex-direction: row;
+justify-content: space-between;
+}
+
+.Div_Money_div input:nth-child(1) {
+    width: 310px;
+    height: 50px;
+   
+}
+.Div_Money_div input:nth-child(2) {
+    width: 310px;
+    height: 50px;
+    
+}
+.Div_Optiones{
+    width: 250px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+     
+     align-self: flex-end;
+    
+}
+.Dialog_Inventory .Div_Optiones :nth-child(1) {
+    width: 110px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 5px;
+ color: black;
+ background-color: gainsboro;
+ font-weight: 400;
+}
+.Dialog_Inventory .Div_Optiones :nth-child(2) {
+    width: 110px;
+    height: 45px;
+    font-size: 16px;
+ color: white;
+ background-color: blue;
+ font-weight: 400;
+ border-radius: 5px;
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+
+     
+    .Dialog_Inventory{
+        width: 90%;
+        height: 500px;
+      background-color:#ffff;
+        border: none;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       margin-left: 25px;
+      border: 1px solid black;
+    }
+    .Dialog_Inventory h2{
+        font-size: 20px;
+    }
+    .Div_Money_div input:nth-child(1) {
+        width: 155px;
+        height: 45px;
+       
+    }
+    .Div_Money_div input:nth-child(2) {
+        width: 155px;
+        height: 45px;
+        
+    }
+    .Dialog_Inventory textarea{
+        width: 100%;
+    height: 90px;
+    padding: 10px;
+    }
+
+    .Dialog_Inventory .Div_Optiones :nth-child(1) {
+        width: 110px;
+        height: 40px;
+        font-size: 15px;
+        border-radius: 5px;
+     color: black;
+     background-color: gainsboro;
+     font-weight: 400;
+    }
+    .Dialog_Inventory .Div_Optiones :nth-child(2) {
+        width: 110px;
+        height: 40px;
+        font-size: 15px;
+     color: white;
+     background-color: blue;
+     font-weight: 400;
+     border-radius: 5px;
+    }
+    .Dialog_Inventory .Div_Inventory_Inputs{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+}

@@ -1,0 +1,96 @@
+.Div_Aialog_Detalles{
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: -200px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    
+}
+.Div_Aialog_Detalles h2{
+    align-self: flex-start;
+    font-size: 25px;
+    font-weight: 700;
+}
+.Div_Aialog_Detalles img{
+    width: 250px;
+    height: 250px;
+}
+.Div_Aialog_Detalles div{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 15px;
+}
+.Div_Aialog_Detalles div span{
+    font-size: 18px;
+    font-weight: 700;
+}
+.Div_Aialog_Detalles .Button_Detalles{
+    width: 100px;
+    height: 55px;
+    color: black;
+    background-color: gainsboro;
+     border: none;
+    align-self: flex-end;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .Div_Aialog_Detalles{
+        width: 90%;
+        height: 470px;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 20px;
+       
+        background-color: white;
+        border: 1px solid gainsboro;
+        
+    }
+    .Dialog_Inventory .Div_Inventory_Inputs{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+         
+        
+    }
+    .Div_Aialog_Detalles h2{
+        font-size: 20px;
+    }
+    .Div_Aialog_Detalles img{
+        width: 200px;
+        height: 200px;
+    }
+    .Div_Aialog_Detalles div{
+        width: 100%;
+        height: 250px;
+    }
+    .Div_Aialog_Detalles .Button_Detalles{
+        height: 45px;
+    }
+.Div_Aialog_Detalles div p span{
+    font-size: 15px;
+}
+.Div_Aialog_Detalles div p  {
+    font-size: 13px;
+}
+}
